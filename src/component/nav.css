@@ -1,0 +1,23 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.ul{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    background-color: black;
+}
+.item{
+    margin: auto;
+    padding: auto;
+    color: white;
+    font-size: 30px;
+}
+.item:active{
+    color: blue;
+    
+}
+.item:hover{
+    cursor: pointer;
+}
